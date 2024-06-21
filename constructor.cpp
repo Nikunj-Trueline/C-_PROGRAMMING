@@ -28,10 +28,10 @@ class demo
 public:
     // default constructor..
 
-    // demo()
-    // {
-    //     cout << "This is default constructor..." << endl;
-    // }
+    demo()
+    {
+        cout << "This is default constructor..." << endl;
+    }
 
     // demo()
     // {
@@ -63,12 +63,19 @@ public:
     {
         cout << language << " Programming language is more faster than other programming language..." << endl;
     }
+
+    ~demo()
+    {
+        cout << "This is default destructor..." << endl;
+    }
 };
 
 int main()
 {
 
-    // demo obj;
+    demo obj1();
+
+    demo obj2 = demo("");
     // obj.displayData();
 
     // demo obj1;
