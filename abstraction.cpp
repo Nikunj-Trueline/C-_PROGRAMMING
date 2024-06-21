@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+Abstraction : Used for manage class private field.
+
+
+
+*/
+
 class Login
 {
 
