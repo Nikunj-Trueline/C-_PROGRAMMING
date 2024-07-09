@@ -1,0 +1,5 @@
+File handling use for store perminent data...
+hello
+world
+thank you
+..1
